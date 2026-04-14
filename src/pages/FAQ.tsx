@@ -4,24 +4,52 @@ import { Plus, Minus } from 'lucide-react';
 
 const faqs = [
   {
-    question: "Why should I get my car serviced?",
-    answer: "Regular servicing improves road safety, reduces running costs, increases car value, reduces the likelihood of breakdowns, and protects your warranty."
+    question: "What services do you offer?",
+    answer: "We offer Dpf cleaning, Vehicle remapping, solution maps, vehicle servicing, and wet belt packages using top-end quality products for not just the best results but guaranteed to last quality."
   },
   {
-    question: "What is DPF cleaning?",
-    answer: "DPF (Diesel Particulate Filter) cleaning is a process that removes soot and ash buildup from your diesel engine's exhaust filter, restoring performance and preventing expensive replacements."
+    question: "What remap would be best for me?",
+    answer: "A vehicle remap is very unique to the customer's time, issues & what they would ideally like to get from the remap. Whether that's a stage 1 remap for performance or economy for better fuel use, or if you're having several issues like DPF or AdBlue and want a vehicle solution to save time and money in the future and help the lifespan of the vehicle, we have various solutions tailored to help every individual."
   },
   {
-    question: "How do I know if my cambelt needs changing?",
-    answer: "Common signs include unusual engine noise, the car not starting, or reaching the manufacturer's recommended mileage/time interval (usually every 60,000 to 100,000 miles)."
+    question: "What makes your services unique?",
+    answer: "We use top-end quality products to ensure customer satisfaction and 100% confidence in first-time fixes."
   },
   {
-    question: "What is AdBlue and why do I need it?",
-    answer: "AdBlue is a fluid used in modern diesel engines to reduce harmful nitrogen oxide emissions. If your AdBlue system fails or runs dry, your vehicle may enter 'limp mode' or refuse to start."
+    question: "Can you save me money or give me the best price?",
+    answer: "We work to everyone's budget and at a timeframe that suits both parties. We can help save money by choosing the correct parts or advising what the best solution would be."
   },
   {
-    question: "Is your service really mobile?",
-    answer: "Yes! We bring all the necessary equipment to your home, workplace, or any convenient location within our 30-mile service radius around Tamworth."
+    question: "Do you provide vehicle diagnostics?",
+    answer: "Yes, we offer vehicle diagnostics as part of our comprehensive servicing and cleaning packages."
+  },
+  {
+    question: "Do you offer mobile services?",
+    answer: "Yes, we offer mobile services for added convenience to our customers, covering a vast amount of work carried out on your doorstep from basic services to engine work."
+  },
+  {
+    question: "Where are you located?",
+    answer: "We are located in Tamworth, England, United Kingdom. We cover the surrounding area mainly within the Staffordshire region."
+  },
+  {
+    question: "Do you offer warranty on your services?",
+    answer: "Yes, we provide warranty on our services to ensure customer satisfaction."
+  },
+  {
+    question: "How can I contact you?",
+    answer: "You can contact us through our website, phone, WhatsApp, Facebook, Instagram or via Google for any inquiries or to schedule a service appointment."
+  },
+  {
+    question: "How long does Dpf cleaning take?",
+    answer: "The duration of Dpf cleaning can vary depending on the vehicle and the extent of cleaning required."
+  },
+  {
+    question: "Are you able to fix the issue straight away?",
+    answer: "We always carry out a full check of the problem and depending on what the issue is we can fix on the spot or rearrange for an appropriate appointment to complete all work and to have parts readily available."
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer: "We accept various payment methods including cash, credit/debit cards."
   }
 ];
 

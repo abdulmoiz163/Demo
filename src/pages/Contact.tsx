@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Send, MessageSquare } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -85,8 +85,24 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] font-bold tracking-widest uppercase text-brand-muted mb-1">Email</p>
-                    <p className="text-white font-bold">info@tamworthdpf.com</p>
+                    <p className="text-white font-bold">staffordshire.dpf@gmail.com</p>
                   </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <a 
+                    href="https://api.whatsapp.com/send?phone=7310536906" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-4 group w-full"
+                  >
+                    <div className="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center shrink-0 group-hover:bg-brand-blue/20 transition-colors">
+                      <MessageSquare className="text-brand-blue" size={20} />
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold tracking-widest uppercase text-brand-muted mb-1">WhatsApp</p>
+                      <p className="text-white font-bold group-hover:text-brand-blue transition-colors">Chat with us</p>
+                    </div>
+                  </a>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center shrink-0">
@@ -121,22 +137,26 @@ export default function Contact() {
             <div className="glass-card p-8 rounded-3xl flex justify-between items-center">
               <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">Follow Our Work</span>
               <div className="flex gap-4">
-                <a href="#" className="text-white hover:text-brand-blue transition-colors"><Facebook size={20} /></a>
-                <a href="#" className="text-white hover:text-brand-blue transition-colors"><Instagram size={20} /></a>
+                <a href="https://www.facebook.com/profile.php?id=61555745214652#" target="_blank" rel="noopener noreferrer" className="text-white hover:text-brand-blue transition-colors"><Facebook size={20} /></a>
+                <a href="https://instagram.com/Dpfcleanstaffordshire" target="_blank" rel="noopener noreferrer" className="text-white hover:text-brand-blue transition-colors"><Instagram size={20} /></a>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Map Placeholder */}
-        <div className="mt-12 h-96 rounded-3xl overflow-hidden relative">
-          <img 
-            src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=2000" 
-            alt="Map Placeholder" 
-            className="w-full h-full object-cover grayscale opacity-50"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
+        {/* Google Map */}
+        <div className="mt-12 h-96 rounded-3xl overflow-hidden relative border border-white/10">
+          <iframe 
+            src="https://maps.google.com/maps?q=Tamworth,UK&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0, filter: 'grayscale(1) invert(1) contrast(1.2) opacity(0.6)' }} 
+            allowFullScreen={true} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Tamworth Service Area Map"
+          ></iframe>
+          <div className="absolute bottom-6 left-6">
             <div className="glass-card p-6 rounded-2xl flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-brand-blue flex items-center justify-center">
                 <MapPin className="text-white" size={24} />

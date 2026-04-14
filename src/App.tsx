@@ -8,6 +8,9 @@ import Contact from './pages/Contact';
 import Booking from './pages/Booking';
 import About from './pages/About';
 import FAQ from './pages/FAQ';
+import DPFInfo from './pages/DPFInfo';
+import Remapping from './pages/Remapping';
+import Pricing from './pages/Pricing';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,6 +34,9 @@ export default function App() {
             <Route path="/booking" element={<Booking />} />
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/dpf-info" element={<DPFInfo />} />
+            <Route path="/remapping" element={<Remapping />} />
+            <Route path="/pricing" element={<Pricing />} />
             {/* Fallback for other routes mentioned in nav but not implemented yet */}
             <Route path="/privacy" element={<Home />} />
             <Route path="/terms" element={<Home />} />

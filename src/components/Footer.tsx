@@ -21,7 +21,7 @@ export default function Footer() {
               Precision-engineered automotive care for the discerning owner. We treat every vehicle like a masterpiece, delivering top-tier DPF and AdBlue solutions.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/dpfcleanstaffordshire" target="_blank" rel="noopener noreferrer" className="text-brand-muted hover:text-brand-blue transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61555745214652#" target="_blank" rel="noopener noreferrer" className="text-brand-muted hover:text-brand-blue transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="https://instagram.com/Dpfcleanstaffordshire" target="_blank" rel="noopener noreferrer" className="text-brand-muted hover:text-brand-blue transition-colors">
@@ -37,6 +37,9 @@ export default function Footer() {
             <h4 className="text-white font-display font-semibold mb-6 text-sm tracking-wider uppercase">Quick Links</h4>
             <ul className="space-y-4">
               <li><Link to="/services" className="text-brand-muted hover:text-white text-sm transition-colors">Services</Link></li>
+              <li><Link to="/remapping" className="text-brand-muted hover:text-white text-sm transition-colors">Vehicle Remapping</Link></li>
+              <li><Link to="/pricing" className="text-brand-muted hover:text-white text-sm transition-colors">Price & Coverage</Link></li>
+              <li><Link to="/dpf-info" className="text-brand-muted hover:text-white text-sm transition-colors">DPF Specialist Info</Link></li>
               <li><Link to="/about" className="text-brand-muted hover:text-white text-sm transition-colors">About Us</Link></li>
               <li><Link to="/faq" className="text-brand-muted hover:text-white text-sm transition-colors">FAQ</Link></li>
               <li><Link to="/contact" className="text-brand-muted hover:text-white text-sm transition-colors">Contact</Link></li>
@@ -66,7 +69,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-brand-muted text-sm">
                 <Mail size={18} className="text-brand-blue shrink-0" />
-                <span>info@tamworthdpf.com</span>
+                <span>staffordshire.dpf@gmail.com</span>
               </div>
             </div>
           </div>

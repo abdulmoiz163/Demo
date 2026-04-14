@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    title: "DPF CLEANING",
+    title: "DPF CLEAN STAFFORDSHIRE",
     price: "FROM £199",
     description: "Specialist DPF cleaning services to restore your vehicle's performance and efficiency, all done at your convenience.",
     duration: "2-4 HOURS",
     image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "ADBLUE SOLUTIONS",
+    title: "ADBLUE SPECIALIST",
     price: "FROM £149",
     description: "Expert AdBlue services to ensure your diesel vehicle runs cleanly and complies with emissions standards.",
     duration: "1-2 HOURS",
@@ -25,7 +25,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1551522435-a13afa10f103?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "MOBILE MECHANIC",
+    title: "MOBILE MECHANIC TAMWORTH",
     price: "FROM £85",
     description: "Comprehensive mobile mechanic services for general repairs and maintenance, brought directly to your location.",
     duration: "VARIES",
@@ -77,14 +77,14 @@ export default function Home() {
             className="max-w-3xl"
           >
             <span className="text-brand-blue font-display font-semibold tracking-widest text-sm uppercase mb-4 block">
-              PRECISION AUTO CARE
+              TAMWORTH'S PREMIER MOBILE SERVICE
             </span>
             <h1 className="text-6xl md:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter">
-              PRECISION <br />
-              <span className="text-gradient">AUTO CARE.</span>
+              YOUR TRUSTED <br />
+              <span className="text-gradient">MOBILE MECHANIC.</span>
             </h1>
             <p className="text-brand-muted text-lg md:text-xl mb-10 max-w-xl leading-relaxed">
-              Experience the pinnacle of automotive refinement. We don't just fix; we restore, protect, and perfect every square millimeter of your vehicle.
+              At Dpf & Vehicle Services Tamworth, we bring top-tier DPF, AdBlue, and general vehicle services directly to you, whether you're at home, work, or out shopping. Experience unparalleled convenience and quality with our expert team.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/booking" className="bg-brand-blue hover:bg-blue-600 text-white px-10 py-4 rounded-full font-bold transition-all text-center">
@@ -104,10 +104,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
             <div>
               <span className="text-brand-blue font-display font-semibold tracking-widest text-xs uppercase mb-4 block">CRAFTSMANSHIP</span>
-              <h2 className="text-4xl md:text-6xl font-display font-bold tracking-tighter">OUR CORE SERVICES</h2>
+              <h2 className="text-4xl md:text-6xl font-display font-bold tracking-tighter">OUR SPECIALIST SERVICES</h2>
             </div>
             <p className="text-brand-muted max-w-md text-right hidden md:block">
-              Meticulous attention to detail for the discerning owner. We bring specialist knowledge directly to your doorstep.
+              We offer a comprehensive range of mobile mechanic services, with a strong focus on DPF and AdBlue solutions. Our professional and friendly team is equipped to handle your vehicle's needs efficiently and effectively.
             </p>
           </div>
 
@@ -159,8 +159,12 @@ export default function Home() {
               <span className="text-brand-blue font-display font-semibold tracking-widest text-xs uppercase mb-4 block">EXCELLENCE DEFINED</span>
               <h2 className="text-4xl md:text-6xl font-display font-bold tracking-tighter mb-12 leading-none">
                 WHY CHOOSE <br />
-                <span className="text-gradient">OUR PRECISION</span>
+                <span className="text-gradient">DPF & VEHICLE SERVICES?</span>
               </h2>
+              
+              <p className="text-brand-muted mb-12 leading-relaxed">
+                We pride ourselves on using only top-end quality products to deliver the best service possible. Our commitment to excellence ensures complete customer satisfaction and 100% confidence in first-time fixes. We bring our expertise directly to you, offering convenience without compromising on quality.
+              </p>
               
               <div className="space-y-8">
                 <div className="flex gap-6">
@@ -213,6 +217,36 @@ export default function Home() {
                 <p className="text-xs font-bold tracking-widest uppercase text-white">FIRST TIME FIX CONFIDENCE</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Serving Busy Lives & Specialist Care */}
+      <section className="py-24 bg-brand-dark border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="glass-card p-12 rounded-3xl"
+            >
+              <h3 className="text-3xl font-display font-bold mb-6 uppercase tracking-tight">Serving Busy Lives</h3>
+              <p className="text-brand-muted leading-relaxed">
+                Life in Tamworth can be hectic, whether you're a busy family, running a local business, or part of the younger generation on the go. Our mobile mechanic service is designed to fit seamlessly into your schedule, providing expert care without the hassle of a garage visit.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="glass-card p-12 rounded-3xl"
+            >
+              <h3 className="text-3xl font-display font-bold mb-6 uppercase tracking-tight">Specialist Care</h3>
+              <p className="text-brand-muted leading-relaxed">
+                From specific issues like DPF problems and remapping to addressing wet belts, we have the specialist knowledge and tools to provide precise, effective solutions. We're dedicated to getting your vehicle back to optimal performance with minimal disruption to your day.
+              </p>
+            </motion.div>
           </div>
         </div>
       </section>
